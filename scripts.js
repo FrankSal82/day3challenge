@@ -12,9 +12,10 @@
 //     alert("Invalid input")
 // }
 var whatDo = prompt("What would you like to do?");
-if(whatDo != "") {
+if(whatDo != "" && whatDo != null) {
 
   alert("You would like to " + whatDo + "!");
+  location.reload();
 } else {
   alert("Next time enter a valid input.")
   location.reload();
