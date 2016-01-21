@@ -17,4 +17,5 @@ if(whatDo != "") {
   alert("You would like to " + whatDo + "!");
 } else {
   alert("Next time enter a valid input.")
+  location.reload();
 }
