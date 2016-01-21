@@ -14,7 +14,7 @@
 var whatDo = prompt("What would you like to do?");
 if(whatDo != "") {
 
-  alert(whatDo);
+  alert("You would like to " + whatDo + "!");
 } else {
   alert("Next time enter a valid input.")
 }
